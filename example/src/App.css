@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: monospace;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +42,81 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button-login{
+  width: 250px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 3px;
+  background: #76e10b;
+  border-radius: 20px;
+  color: white;
+}
+.button-login:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.login-content{
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 3px 0px #888888;
+  justify-content: space-between;
+}
+.login-header{
+  width: 100%;
+  height: 100px;
+  background: #76e10b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-text{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.input-style{
+  font-family: monospace;
+}
+.button-text{
+  font-size: 15px;
+  font-weight: bold;
+}
+.input-row{
+  display: flex;
+  flex-direction: row;
+}
+.sign-up{
+  color: #76e10b;
+  font-weight: bold;
+}
+.sign-up:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.input-style{
+  padding: 5px;
+  width: 85%;
+
+}
+.display-error{
+  display: flex;
+  color: red;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.input-w-err{
+  width: 100%;
+  margin: 10px;
 }
